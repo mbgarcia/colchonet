@@ -2,6 +2,7 @@ Colchonet::Application.routes.draw do
   resources :rooms
   resources :users
   resource :confirmation, only: [:show]
+  resource :user_sessions
 
   root 'home#index'
 

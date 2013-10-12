@@ -5,7 +5,6 @@ class UserSession
 	end
 
 	def user_signed_in?
-		alert: 'caiu'
 		@session[:user_id].present?
 	end
 

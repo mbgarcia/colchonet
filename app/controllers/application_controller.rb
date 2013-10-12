@@ -7,9 +7,6 @@ class ApplicationController < ActionController::Base
 
   helper_method :current_user, :user_signed_in?
   
-  def user_signed_in?
-  end
-
   def user_session
   	UserSession.new(session)
   end

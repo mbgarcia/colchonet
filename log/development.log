@@ -9841,3 +9841,136 @@ ActionView::Template::Error (undefined local variable or method `new_user_sessio
   Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
   Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
   Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-11 20:53:01 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms" LIMIT 3
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 186ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    12: 		<div id='header-wrap'>
+    13: 			<h1> <%= link_to "colcho.net", root_path%> </h1>
+    14: 
+    15: 			<% if user_signed_in? %>
+    16: 				<%= render 'layouts/user_navbar' %>
+    17: 			<% else %>
+    18: 				<%= render 'layouts/visitor_navbar' %>
+  app/controllers/application_controller.rb:11:in `initialize'
+  app/controllers/application_controller.rb:11:in `new'
+  app/controllers/application_controller.rb:11:in `user_session'
+  app/controllers/application_controller.rb:5:in `user_signed_in?'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___1378061207700404375_2152438660'
+
+
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (25.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-11 20:54:45 -0300
+Processing by HomeController#index as HTML
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT "rooms".* FROM "rooms" LIMIT 3[0m
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    12: 		<div id='header-wrap'>
+    13: 			<h1> <%= link_to "colcho.net", root_path%> </h1>
+    14: 
+    15: 			<% if user_signed_in? %>
+    16: 				<%= render 'layouts/user_navbar' %>
+    17: 			<% else %>
+    18: 				<%= render 'layouts/visitor_navbar' %>
+  app/controllers/application_controller.rb:11:in `initialize'
+  app/controllers/application_controller.rb:11:in `new'
+  app/controllers/application_controller.rb:11:in `user_session'
+  app/controllers/application_controller.rb:5:in `user_signed_in?'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___1378061207700404375_2152438660'
+
+
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-11 20:54:50 -0300
+Processing by HomeController#index as HTML
+  [1m[35mRoom Load (0.3ms)[0m  SELECT "rooms".* FROM "rooms" LIMIT 3
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    12: 		<div id='header-wrap'>
+    13: 			<h1> <%= link_to "colcho.net", root_path%> </h1>
+    14: 
+    15: 			<% if user_signed_in? %>
+    16: 				<%= render 'layouts/user_navbar' %>
+    17: 			<% else %>
+    18: 				<%= render 'layouts/visitor_navbar' %>
+  app/controllers/application_controller.rb:11:in `initialize'
+  app/controllers/application_controller.rb:11:in `new'
+  app/controllers/application_controller.rb:11:in `user_session'
+  app/controllers/application_controller.rb:5:in `user_signed_in?'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___1378061207700404375_2152438660'
+
+
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-11 20:55:24 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms" LIMIT 3
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 180ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    12: 		<div id='header-wrap'>
+    13: 			<h1> <%= link_to "colcho.net", root_path%> </h1>
+    14: 
+    15: 			<% if user_signed_in? %>
+    16: 				<%= render 'layouts/user_navbar' %>
+    17: 			<% else %>
+    18: 				<%= render 'layouts/visitor_navbar' %>
+  app/controllers/application_controller.rb:11:in `initialize'
+  app/controllers/application_controller.rb:11:in `new'
+  app/controllers/application_controller.rb:11:in `user_session'
+  app/controllers/application_controller.rb:5:in `user_signed_in?'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1409662076131185001_2152241180'
+
+
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-11 21:04:41 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms" LIMIT 3
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 150ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    12: 		<div id='header-wrap'>
+    13: 			<h1> <%= link_to "colcho.net", root_path%> </h1>
+    14: 
+    15: 			<% if user_signed_in? %>
+    16: 				<%= render 'layouts/user_navbar' %>
+    17: 			<% else %>
+    18: 				<%= render 'layouts/visitor_navbar' %>
+  app/controllers/application_controller.rb:11:in `initialize'
+  app/controllers/application_controller.rb:11:in `new'
+  app/controllers/application_controller.rb:11:in `user_session'
+  app/controllers/application_controller.rb:5:in `user_signed_in?'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___466191522892398994_2176980540'
+
+
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/marcelodebritogarcia/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.5ms)
