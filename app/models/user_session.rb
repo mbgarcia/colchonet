@@ -1,5 +1,9 @@
 class UserSession
 
+  def initialize(session)
+    @session = session
+  end
+
 	def current_user
 		User.find(@session[:user_id])
 	end
