@@ -19,7 +19,7 @@ class UserSession
 
   def authenticate
     user = User.authenticate(@email, @password)
-    
+
     if user.present?
       store(user)
     else
@@ -32,19 +32,18 @@ class UserSession
     @session[:user_id] = user.id
   end  
 
-=begin
   def current_user
 	  User.find(@session[:user_id])
   end
 
   def user_signed_in?
-	  @user_session[:user_id].present?
+	  @session[:user_id].present?
   end
 
   def destroy
-	  @user_session[:user_id] = nil
+	  @session[:user_id] = nil
   end
-
+=begin
   def persisted?
     false
   end  

@@ -3450,3 +3450,978 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 09:55:31 
 
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 09:55:31 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-16 18:31:59 -0300
+Processing by HomeController#index as HTML
+  [1m[35mRoom Load (17.9ms)[0m  SELECT "rooms".* FROM "rooms" LIMIT 3
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 84ms (Views: 63.6ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 18:31:59 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 18:31:59 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 18:31:59 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 18:31:59 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 18:31:59 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 18:31:59 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 18:31:59 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 18:31:59 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 18:31:59 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 18:31:59 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 18:31:59 -0300
+
+
+Started GET "/user_sessions/new" for 127.0.0.1 at 2013-10-16 18:32:09 -0300
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 55ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 18:32:09 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 18:32:09 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 18:32:09 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 18:32:09 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 18:32:09 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 18:32:09 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 18:32:09 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 18:32:09 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 18:32:09 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 18:32:09 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 18:32:09 -0300
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2013-10-16 18:32:47 -0300
+Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KDBnNDHjC85LZtbHmmjUmXyUsXed2++MQDg8dTkxkHI=", "user_session"=>{"email"=>"aaaa@reste.com", "password"=>"[FILTERED]"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'aaaa@reste.com' AND ("users"."confirmed_at" IS NOT NULL) LIMIT 1[0m
+  Rendered user_sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 18:32:47 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 18:32:47 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 18:32:47 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 18:32:47 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 18:32:47 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 18:32:47 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 18:32:47 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 18:32:47 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 18:32:47 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 18:32:47 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 18:32:47 -0300
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2013-10-16 18:35:27 -0300
+Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KDBnNDHjC85LZtbHmmjUmXyUsXed2++MQDg8dTkxkHI=", "user_session"=>{"email"=>"aaaa@reste.com", "password"=>"[FILTERED]"}, "commit"=>"Entrar"}
+  [1m[35mUser Load (12.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'aaaa@reste.com' AND ("users"."confirmed_at" IS NOT NULL) LIMIT 1
+  Rendered user_sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 165ms (Views: 10.1ms | ActiveRecord: 13.6ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 18:35:27 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 18:35:27 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 18:35:27 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 18:35:27 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 18:35:27 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 18:35:27 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 18:35:27 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 18:35:27 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 18:35:27 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 18:35:27 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 18:35:27 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-16 19:04:42 -0300
+Processing by HomeController#index as HTML
+  [1m[36mRoom Load (0.7ms)[0m  [1mSELECT "rooms".* FROM "rooms" LIMIT 3[0m
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (32.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 11]]
+  Rendered layouts/_user_navbar.html.erb (73.2ms)
+Completed 200 OK in 114ms (Views: 53.4ms | ActiveRecord: 34.0ms)
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:42 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:42 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:42 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:42 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:42 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:42 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:42 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:42 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:42 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:42 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:42 -0300
+
+
+Started GET "/users/11" for 127.0.0.1 at 2013-10-16 19:04:47 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  Rendered users/show.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 11]]
+  Rendered layouts/_user_navbar.html.erb (1.8ms)
+Completed 200 OK in 14ms (Views: 11.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:47 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:47 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:47 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:47 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:47 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:47 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:47 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:47 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:47 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:47 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:47 -0300
+
+
+Started DELETE "/user_sessions" for 127.0.0.1 at 2013-10-16 19:04:50 -0300
+Processing by UserSessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"KDBnNDHjC85LZtbHmmjUmXyUsXed2++MQDg8dTkxkHI="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-16 19:04:50 -0300
+Processing by HomeController#index as HTML
+  [1m[36mRoom Load (0.2ms)[0m  [1mSELECT "rooms".* FROM "rooms" LIMIT 3[0m
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_visitor_navbar.html.erb (1.1ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:50 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:50 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:50 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:50 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:50 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:50 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:50 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:50 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:50 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:50 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:50 -0300
+
+
+Started GET "/user_sessions/new" for 127.0.0.1 at 2013-10-16 19:04:56 -0300
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.4ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:56 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:56 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:56 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:56 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:56 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:56 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:56 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:56 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:04:56 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:56 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:04:56 -0300
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2013-10-16 19:05:05 -0300
+Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KDBnNDHjC85LZtbHmmjUmXyUsXed2++MQDg8dTkxkHI=", "user_session"=>{"email"=>"marcelo@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Entrar"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'marcelo@gmail.com' AND ("users"."confirmed_at" IS NOT NULL) LIMIT 1
+  Rendered user_sessions/new.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.4ms)
+Completed 200 OK in 98ms (Views: 11.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:05 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:05 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:05 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:05 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:05 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:05 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:05 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:05 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:05 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:05 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:05 -0300
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2013-10-16 19:05:16 -0300
+Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KDBnNDHjC85LZtbHmmjUmXyUsXed2++MQDg8dTkxkHI=", "user_session"=>{"email"=>"luiza@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'luiza@gmail.com' AND ("users"."confirmed_at" IS NOT NULL) LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 88ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-16 19:05:16 -0300
+Processing by HomeController#index as HTML
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms" LIMIT 3
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 11]]
+  Rendered layouts/_user_navbar.html.erb (1.6ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:16 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:16 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:16 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:16 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:16 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:16 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:16 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:16 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:16 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:16 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:16 -0300
+
+
+Started DELETE "/user_sessions" for 127.0.0.1 at 2013-10-16 19:05:23 -0300
+Processing by UserSessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"KDBnNDHjC85LZtbHmmjUmXyUsXed2++MQDg8dTkxkHI="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-16 19:05:23 -0300
+Processing by HomeController#index as HTML
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms" LIMIT 3
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.4ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:23 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:23 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:23 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:23 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:23 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:23 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:23 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:23 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:23 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:23 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:23 -0300
+
+
+Started GET "/user_sessions/new" for 127.0.0.1 at 2013-10-16 19:05:26 -0300
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/new.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.4ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:26 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:26 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:26 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:26 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:26 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:26 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:26 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:26 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:26 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:26 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:26 -0300
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-10-16 19:05:30 -0300
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (6.0ms)
+  Rendered users/new.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:30 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:30 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:30 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:30 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:30 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:30 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:30 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:30 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:30 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:30 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:30 -0300
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-10-16 19:05:32 -0300
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (4.6ms)
+  Rendered users/new.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.4ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:32 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:33 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:33 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:33 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:33 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:33 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:33 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:33 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:33 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:33 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:33 -0300
+
+
+Started GET "/user_sessions/new" for 127.0.0.1 at 2013-10-16 19:05:34 -0300
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/new.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.4ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:34 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:34 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:34 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:34 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:34 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:34 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:34 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:34 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:34 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:34 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:34 -0300
+
+
+Started GET "/user_sessions/new" for 127.0.0.1 at 2013-10-16 19:05:40 -0300
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/new.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.4ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:40 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:40 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:40 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:40 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:40 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:40 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:40 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:40 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:40 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:40 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:40 -0300
+
+
+Started GET "/rooms" for 127.0.0.1 at 2013-10-16 19:05:44 -0300
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.2ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  Rendered rooms/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.4ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:44 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:44 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:44 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:44 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:44 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:44 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:44 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:44 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:44 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:44 -0300
+
+
+Started GET "/rooms/new" for 127.0.0.1 at 2013-10-16 19:05:47 -0300
+Processing by RoomsController#new as HTML
+  Rendered rooms/_form.html.erb (4.7ms)
+  Rendered rooms/new.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.4ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:47 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:47 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:47 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:47 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:47 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:47 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:47 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:47 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:05:47 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:47 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:05:47 -0300
+
+
+Started GET "/users/2" for 127.0.0.1 at 2013-10-16 19:06:16 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.4ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:16 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:16 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:16 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:16 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:16 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:16 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:16 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:16 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:16 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:16 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:16 -0300
+
+
+Started GET "/users/7" for 127.0.0.1 at 2013-10-16 19:06:20 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "7"]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.5ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:20 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:20 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:20 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:20 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:20 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:20 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:20 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:20 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:20 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:20 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:20 -0300
+
+
+Started GET "/user_sessions/new" for 127.0.0.1 at 2013-10-16 19:06:25 -0300
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/new.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.4ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:25 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:25 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:25 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:25 -0300
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:25 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:25 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:25 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:25 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:25 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:25 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:25 -0300
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2013-10-16 19:06:36 -0300
+Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KDBnNDHjC85LZtbHmmjUmXyUsXed2++MQDg8dTkxkHI=", "user_session"=>{"email"=>"luiza@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Entrar"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'luiza@gmail.com' AND ("users"."confirmed_at" IS NOT NULL) LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 89ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-16 19:06:36 -0300
+Processing by HomeController#index as HTML
+  [1m[36mRoom Load (0.2ms)[0m  [1mSELECT "rooms".* FROM "rooms" LIMIT 3[0m
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 11]]
+  Rendered layouts/_user_navbar.html.erb (1.6ms)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:36 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:36 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:36 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:36 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:36 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:36 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:36 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:36 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:36 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:36 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:36 -0300
+
+
+Started GET "/users/11" for 127.0.0.1 at 2013-10-16 19:06:41 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 11]]
+  Rendered layouts/_user_navbar.html.erb (1.4ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:41 -0300
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:41 -0300
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:41 -0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:41 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:41 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:41 -0300
+
+
+Started GET "/assets/translation_missing.css?body=1" for 127.0.0.1 at 2013-10-16 19:06:41 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:41 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:41 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:41 -0300
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-10-16 19:06:41 -0300
