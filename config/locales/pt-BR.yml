@@ -301,6 +301,11 @@ pt-BR:
     precision: 
       format: 
         delimiter: "."
+  room:
+    title: Título
+  rooms:
+    title: Listagem de Quartos
+    new: Novo Quarto
   support: 
     array: 
       last_word_connector: " e "

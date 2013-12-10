@@ -1,9 +1,9 @@
-<h1>Listing rooms</h1>
+<h1> <%= t 'rooms.title' %></h1>
 
 <table>
   <thead>
     <tr>
-      <th>Title</th>
+      <th> <%= t 'room.title' %></th>
       <th>Location</th>
       <th>Description</th>
       <th></th>
@@ -28,6 +28,6 @@
 
 <br>
 
-<%= link_to 'New Room', new_room_path %>
+<%= link_to t('rooms.new'), new_room_path %>
 
 <%= link_to 'Voltar', root_path %>
